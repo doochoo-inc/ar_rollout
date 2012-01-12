@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120112150204) do
+ActiveRecord::Schema.define(:version => 20120112154441) do
 
   create_table "rollouts", :force => true do |t|
     t.string  "name"
@@ -19,6 +19,14 @@ ActiveRecord::Schema.define(:version => 20120112150204) do
     t.integer "user_id"
     t.integer "percentage"
     t.integer "failure_count"
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "name"
+    t.string   "password_digest"
+    t.boolean  "admin"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end

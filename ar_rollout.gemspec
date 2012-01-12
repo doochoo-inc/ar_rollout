@@ -7,8 +7,8 @@ require "ar_rollout/version"
 Gem::Specification.new do |s|
   s.name        = "ar_rollout"
   s.version     = ArRollout::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
+  s.authors     = ["Enrico Carlesso", "Mattia Gheda"]
+  s.email       = ["dev@doochoo.com"]
   s.homepage    = "TODO"
   s.summary     = "TODO: Summary of ArRollout."
   s.description = "TODO: Description of ArRollout."
@@ -19,4 +19,5 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 3.1.3"
 
   s.add_development_dependency "sqlite3"
+  s.add_development_dependency "bcrypt-ruby"
 end
