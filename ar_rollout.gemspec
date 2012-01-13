@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = ArRollout::VERSION
   s.authors     = ["Enrico Carlesso", "Mattia Gheda"]
   s.email       = ["dev@doochoo.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ArRollout."
-  s.description = "TODO: Description of ArRollout."
+  s.homepage    = "https://github.com/doochoo-inc/ar_rollout"
+  s.summary     = "An ActiveRecord version of Rollout gem (https://github.com/jamesgolick/rollout)."
+  s.description = ""
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
