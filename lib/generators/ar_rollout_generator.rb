@@ -10,7 +10,7 @@ class ArRolloutGenerator < Rails::Generators::Base
   desc "This generator creates the initializer file at config/initializers"
   def copy_initializer_file
     copy_file "ar_rollout.rb", "config/initializers/ar_rollout.rb"
-    migration_template "migration.rb", "db/migrate/create_ar_rollout"
+    migration_template "migration.rb", "db/migrate/create_rollout"
   end
 
 end

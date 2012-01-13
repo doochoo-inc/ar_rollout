@@ -1,4 +1,4 @@
-class CreateRolloutTable < ActiveRecord::Migration
+class CreateRollout < ActiveRecord::Migration
   def up
     create_table :rollouts do |t|
       t.string :name
