@@ -6,7 +6,6 @@ module ArRollout
   end
 
   def self.define_group(name, &block)
-    puts "match_#{name}?"
     Rollout.send :define_method, "match_#{name}?" do |b|
       block.call(b)
     end
