@@ -7,8 +7,10 @@ by Ryan Bates (thank you).
 
 This project rocks and uses MIT-LICENSE.
 
-## ToDo
-
+## ToDo Done
 - Write `activate_group` and `deactivate_group`
 - The same for the user
+
+## ToDo
+
 - Activate a feature for all users
